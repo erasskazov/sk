@@ -1,0 +1,14 @@
+.reviews {
+    &__content-wrapper {
+        padding: 50px 0 50px 0;
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+        .describe {
+            margin-top: 50px;
+            tab-size: 25px;
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,42 @@
+.offer {
+    background-color: #EEEEEE;
+    padding-top: 75px;
+    padding-bottom: 50px;
+    &__header {
+        h2 {
+            //margin-top: 75px;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 25px;
+            color: $main_color_dark;
+            text-align: center;   
+        }
+     
+    }
+    &__items-wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 45px;
+    }
+    &__item {
+        max-width: 220px;
+    }
+    &__item-subheader {
+        font-size: 20px;
+        text-align: center;
+        color: $main_color_dark;
+    }
+    &__item-icon {
+        display: block;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+    &__item-text {
+        margin-top: 20px;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        color: #000000;        
+    }
+}

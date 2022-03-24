@@ -1,0 +1,55 @@
+.header {
+    height: 105px;
+    background-color: #1F5482;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__logo {
+        display: block;
+        width: 250px;
+        img {
+            width: 100%;
+        }
+    }
+    &__contacts {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        img {
+            //height: 25px;
+            width: 25px;
+        }
+        a {
+            font-size: 18px;
+            text-align: center;
+            color: #FFFFFF;
+            text-decoration: none;
+            //line-height: px;
+        }
+    }
+    &__phone {
+        img {
+            margin-bottom: 5px;
+            margin-right: 25px;
+        }
+    }
+    &__email {
+        img {
+            margin-right: 7px;
+        }
+    }
+    &__socials {
+        img {
+            width: 25px;
+            margin-right: 5px;
+        }
+        margin-top: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        font-weight: 300;
+        font-size: 15px;
+        color: #fff;
+    }
+}

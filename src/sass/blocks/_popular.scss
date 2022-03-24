@@ -1,0 +1,81 @@
+.popular {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    // max-height: 695px;
+    background-color: #EEEEEE;
+    &__header {
+        h2 {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 25px;
+            color: $main_color_dark;
+            text-align: center;   
+        }
+    }
+    &__content {
+        // max-width: 80vw;
+        padding-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        // &:after {
+        //     content: '';
+        //     flex-grow: 50;
+        // }
+        // margin-bottom: 5px;
+    }
+
+    &-item {
+        width: 265px;
+        height: 395px;
+        background: #EEEEEE;
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-bottom: 20px;
+        //border: 1px solid #1F5482;
+        box-shadow: 0 0 0 1px #1F5482, 0 0 7px #333;
+        // border-radius: 20px;
+        img {
+            width: 100%;
+            //margin-top: 0.5px;
+            //border: 1px solid #1F5482;
+            // border-radius: 20px 20px 0px 0px;
+            //border: 1px solid #1F5482;
+            //box-sizing: border-box;
+        }
+        &__name {
+            margin-top: 7px;
+            font-family: Roboto;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 25px;
+            text-align: center;
+        }
+        &__price {
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 25px;
+            text-align: center;            
+        }
+        a {
+            display: block;
+            margin: 0 auto;
+            margin-top: 6px;
+            font-size: 18px;
+            line-height: 25px;
+            text-align: center;
+            text-decoration-line: underline;
+            color: #1F5482;            
+        }
+    }
+    &__all {
+        margin-top: 30px;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        text-decoration-line: underline;
+        a {
+            color: #1F5482;
+        }
+    }
+}

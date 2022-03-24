@@ -1,0 +1,85 @@
+.menu {
+    position: relative;
+    z-index: 10;
+    background-color: #3285CF;
+    &__list-hamburger {
+        display: none;
+    }
+    &__list {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;        
+    }
+    &__item {
+        width: 264px;
+        height: 50px;
+        background-color: #3285CF;
+        &:hover {
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.4));
+        }
+        a {
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            display: block;
+            margin: 0 auto;
+            text-decoration: none;
+            color: #FFFFFF;
+            font-size: 22px;
+            line-height: 50px;
+            text-align: center;
+        }
+
+        &_active {
+            position: relative;
+            background-color: $main_color_dark;
+            &:after {
+                content: '';
+                //position: absolute;
+                display: block;
+                //height: 2px;
+                width: 100%;
+                border: 1px solid #EEEEEE;
+                background-color: #fff;
+                //bottom: 8px;
+                //right: 50px;
+            }
+        }
+    }
+}
+
+.hamburger {
+    display: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    &:hover {
+        .dropdown-content {display: block;}
+    }
+}
+
+.dropdown-content { 
+    display: none;
+    position: absolute;
+    background: #3285CF;
+    width: 264px;
+    z-index: 10;
+    // &:hover {
+    //     background-color: #fff;
+    // }
+    a {
+        display: block;
+        text-align: left;
+        padding-left: 15px;
+        font-size: 21px;
+        font-weight: 300;
+        &:hover {
+            background-color: #1F5482;
+        }
+    }
+   
+}
+

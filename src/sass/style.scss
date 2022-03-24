@@ -1,0 +1,31 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+@import 'libs/tiny-slider';
+@import 'libs/lightbox.min';
+
+@import 'base/variables.scss';
+
+
+* {
+    font-family: 'Roboto';
+}
+
+.container {
+    position: relative;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+@import 'base/menu';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/promo';
+@import 'blocks/offer';
+@import 'blocks/work';
+@import 'blocks/popular';
+@import 'blocks/our-works';
+@import 'blocks/footer';
+@import 'blocks/modal';
+@import 'blocks/gallery';
+@import 'blocks/reviews';
+@import 'base/media';

@@ -1,0 +1,59 @@
+.button {
+    width: 189px;
+    height: 40px;
+    background-color: #CD5555;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 11px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 18px;
+    &_header {
+        margin: auto 0;
+    }
+    &_promo {
+        // a {
+        //     color: #fff;
+        //     width: 100%;
+        //     height: 100%;
+        // }
+        line-height: 38px;
+        text-decoration: none;
+        display: block;
+        margin: 0 auto;
+        margin-top: 90px;
+        background-color: $main_color_light;
+        width:275px;
+    }
+    &_work {
+        width: 200px;
+        height: 50px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 40px;
+        background-color: $main_color_light;
+    }
+    &_modal {
+        background-color: $main_color_light;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    &:hover {
+        filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.3));
+    }
+}
+
+.dropbutton {
+    width: 264px;
+    height: 50px;
+    background-color: #3285CF;
+    border: none;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 22px;
+    line-height: 50px;
+    text-align: center;    
+    padding: 0;    
+}
